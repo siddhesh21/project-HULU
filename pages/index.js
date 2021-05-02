@@ -1,9 +1,20 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import Header from "../components/Header";
+
+// import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  return <div></div>;
-}
+  return (
+    <div>
+      <Head>
+        <title>HULU</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-// 18:24
+      {/** Header */}
+      <Header />
+      {/** Nav */}
+      {/** Results */}
+    </div>
+  );
+}
