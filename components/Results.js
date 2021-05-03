@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import requests from "../utils/requests";
+import Thumbnail from "./Thumbnail";
 
-function Results() {
-    return (
-        <div>
-            
-        </div>
-    )
+function Results({ results }) {
+  return (
+    <div>
+      {results.map((result) => (
+        <Thumbnail key={result.id} result={result} />
+      ))}
+    </div>
+  );
 }
 
-export default Results
+export default Results;
