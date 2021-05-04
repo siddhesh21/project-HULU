@@ -1,3 +1,6 @@
+### You can able to check out the app from this link - https://project-hulu.vercel.app/ 
+Deployed on Vercel platform with Continous Integrated pipeline with this repo
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
